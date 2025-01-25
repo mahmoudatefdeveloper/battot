@@ -998,16 +998,12 @@ a, button, .nav-links a {
   .social-links {
     justify-content: center;
   }
-}
 
-/* تعديلات للشاشات الصغيرة */
-@media (max-width: 768px) {
   .footer-bottom {
     padding: 1rem;
   }
 }
 
-/* تعديلات للشاشات الصغيرة جداً */
 @media (max-width: 480px) {
   .footer-bottom {
     padding: 0.5rem;
