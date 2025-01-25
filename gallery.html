@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="ar" dir="rtl" itemscope itemtype="https://schema.org/WebPage">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <title>بطوط - معرض الأعمال</title>
+    
+    <!-- Performance Optimizations -->
+    <meta name="description" content="معرض أعمال بطوط - تصاميم إبداعية">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rakkas&display=swap" rel="stylesheet">
+    <link rel="preload" href="https://unpkg.com/lucide@latest" as="script">
+    <link rel="preload" href="style.css" as="style">
+    <link rel="preload" href="animations.js" as="script">
+    
+    <!-- Styles -->
+    <link href="style.css" rel="stylesheet">
+    
+    <!-- Scripts -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+    <script src="animations.js" defer></script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <div class="logo">
+          <i data-lucide="sparkles"></i>
+          <span>بطوط</span>
+        </div>
+        <button class="menu-toggle" aria-label="Toggle menu">
+          <i data-lucide="menu"></i>
+        </button>
+        <div class="nav-links">
+          <a href="index.html">الرئيسية</a>
+          <a href="gallery.html" class="active">معرض الأعمال</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <header id="header" class="animate-on-scroll">
+        <div class="logo">
+          <i data-lucide="sparkles"></i>
+          <h1>معرض الأعمال</h1>
+        </div>
+        <p>مجموعة من أفضل تصاميمنا</p>
+      </header>
+
+      <section id="gallery">
+        <div class="gallery-grid">
+          <div class="gallery-card animate-on-scroll">
+            <img src="https://placehold.co/600x400/pink/white?text=تصميم+١" alt="تصميم تخرج">
+            <div class="gallery-overlay">
+              <h3>تصاميم شهادات التخرج</h3>
+              <p>تصاميم مميزة لشهادات التخرج</p>
+            </div>
+          </div>
+          <div class="gallery-card animate-on-scroll">
+            <img src="https://placehold.co/600x400/pink/white?text=تصميم+٢" alt="تصميم تخرج">
+            <div class="gallery-overlay">
+              <h3>تصاميم روب التخرج</h3>
+              <p>تصاميم خاصة لروب التخرج</p>
+            </div>
+          </div>
+          <div class="gallery-card animate-on-scroll">
+            <img src="https://placehold.co/600x400/pink/white?text=تصميم+٣" alt="تصميم تخرج">
+            <div class="gallery-overlay">
+              <h3>تصاميم قبعة التخرج</h3>
+              <p>تصاميم مميزة لقبعات التخرج</p>
+            </div>
+          </div>
+          <div class="gallery-card animate-on-scroll">
+            <img src="https://placehold.co/600x400/pink/white?text=تصميم+٤" alt="تصميم تخرج">
+            <div class="gallery-overlay">
+              <h3>تصاميم شال التخرج</h3>
+              <p>تصاميم خاصة لشال التخرج</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="gallery-pagination">
+          <a href="gallery.html" class="pagination-button active" aria-label="تصاميم التخرج ١">
+            <i data-lucide="graduation-cap"></i>
+            <span>تصاميم التخرج ١</span>
+          </a>
+          <a href="gallery-2.html" class="pagination-button" aria-label="تصاميم التخرج ٢">
+            <i data-lucide="graduation-cap"></i>
+            <span>تصاميم التخرج ٢</span>
+          </a>
+          <a href="gallery-3.html" class="pagination-button" aria-label="تصاميم التخرج ٣">
+            <i data-lucide="graduation-cap"></i>
+            <span>تصاميم التخرج ٣</span>
+          </a>
+          <a href="gallery-4.html" class="pagination-button" aria-label="تصاميم التخرج ٤">
+            <i data-lucide="graduation-cap"></i>
+            <span>تصاميم التخرج ٤</span>
+          </a>
+          <a href="gallery-5.html" class="pagination-button" aria-label="تصاميم التخرج ٥">
+            <i data-lucide="graduation-cap"></i>
+            <span>تصاميم التخرج ٥</span>
+          </a>
+        </div>
+      </section>
+
+      <footer class="cute-footer">
+        <div class="footer-content">
+          <div class="footer-top">
+            <div class="footer-logo">
+              <i data-lucide="sparkles" class="sparkle-icon"></i>
+              <span>بطوط</span>
+            </div>
+            <div class="social-links">
+              <a href="https://wa.me/+1234567890" class="social-icon whatsapp-personal" title="تواصل معنا مباشرة">
+                <i data-lucide="message-circle"></i>
+                <span class="tooltip">واتساب مباشر</span>
+              </a>
+              <a href="https://chat.whatsapp.com/your-group-invite" class="social-icon whatsapp-group" title="انضم لمجموعتنا">
+                <i data-lucide="users"></i>
+                <span class="tooltip">مجموعة واتساب</span>
+              </a>
+            </div>
+          </div>
+          <div class="footer-wave">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+              <path fill="currentColor" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,112C672,96,768,96,864,112C960,128,1056,160,1152,160C1248,160,1344,128,1392,112L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+            </svg>
+          </div>
+          <div class="footer-bottom">
+            <p class="love-text">
+              صنع بكل <i data-lucide="heart" class="heart-icon"></i> بواسطة فريق بطوط
+            </p>
+            <div class="cute-elements">
+              <i data-lucide="cloud-sun" class="floating-icon"></i>
+              <i data-lucide="star" class="floating-icon"></i>
+              <i data-lucide="moon" class="floating-icon"></i>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

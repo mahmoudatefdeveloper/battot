@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="ar" dir="rtl" itemscope itemtype="https://schema.org/WebPage">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <title>بطوط - الرئيسية</title>
+    
+    <!-- Performance Optimizations -->
+    <meta name="description" content="تصميم إبداعي لحظاتك الخاصة">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rakkas&display=swap" rel="stylesheet">
+    <link rel="preload" href="https://unpkg.com/lucide@latest" as="script">
+    <link rel="preload" href="style.css" as="style">
+    <link rel="preload" href="animations.js" as="script">
+    
+    <!-- Styles -->
+    <link href="style.css" rel="stylesheet">
+    
+    <!-- Scripts -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      // Initialize Lucide icons immediately
+      lucide.createIcons();
+    </script>
+    <script src="animations.js" defer></script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <div class="logo">
+          <i data-lucide="sparkles"></i>
+          <span>بطوط</span>
+        </div>
+        <button class="menu-toggle" aria-label="Toggle menu">
+          <i data-lucide="menu"></i>
+        </button>
+        <div class="nav-links">
+          <a href="index.html" class="active">الرئيسية</a>
+          <a href="gallery.html">معرض الأعمال</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <header id="header">
+        <div class="logo">
+          <i data-lucide="sparkles"></i>
+          <h1>بطوط</h1>
+        </div>
+        <p>نصمم لحظاتك الخاصة بلمسة إبداعية</p>
+      </header>
+
+      <section id="featured-projects" class="animate-on-scroll">
+        <h2>أحدث أعمالنا</h2>
+        <div class="project-grid">
+          <div class="project-card animate-on-scroll">
+            <div class="project-image">
+              <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80" 
+                   alt="تصميم البومات التخرج">
+            </div>
+            <div class="project-content">
+              <h3>تصميم البومات التخرج</h3>
+              <p>البومات تخرج مميزة تحفظ ذكرياتك الجميلة</p>
+            </div>
+          </div>
+
+          <div class="project-card animate-on-scroll">
+            <div class="project-image">
+              <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=800&q=80" 
+                   alt="تصاميم مواقع التواصل">
+            </div>
+            <div class="project-content">
+              <h3>تصاميم مواقع التواصل</h3>
+              <p>تصاميم احترافية لمواقع التواصل الاجتماعي</p>
+            </div>
+          </div>
+
+          <div class="project-card animate-on-scroll">
+            <div class="project-image">
+              <img src="https://images.unsplash.com/photo-1513885535751-8b9238bd345a?auto=format&fit=crop&w=800&q=80" 
+                   alt="هدايا التخرج">
+            </div>
+            <div class="project-content">
+              <h3>هدايا التخرج</h3>
+              <p>هدايا مميزة تناسب مناسبات التخرج</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="cute-footer">
+        <div class="footer-content">
+          <div class="footer-top">
+            <div class="footer-logo">
+              <i data-lucide="sparkles" class="sparkle-icon"></i>
+              <span>بطوط</span>
+            </div>
+            <div class="social-links">
+              <a href="https://wa.me/+1234567890" class="social-icon whatsapp-personal" title="تواصل معنا مباشرة">
+                <i data-lucide="message-circle"></i>
+                <span class="tooltip">واتساب مباشر</span>
+              </a>
+              <a href="https://chat.whatsapp.com/your-group-invite" class="social-icon whatsapp-group" title="انضم لمجموعتنا">
+                <i data-lucide="users"></i>
+                <span class="tooltip">مجموعة واتساب</span>
+              </a>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p class="love-text">
+              صنع بكل <i data-lucide="heart" class="heart-icon"></i> بواسطة فريق بطوط
+            </p>
+            <div class="cute-elements">
+              <i data-lucide="cloud-sun" class="floating-icon"></i>
+              <i data-lucide="star" class="floating-icon"></i>
+              <i data-lucide="moon" class="floating-icon"></i>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
